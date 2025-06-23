@@ -1,0 +1,18 @@
+﻿<Window x:Class="variant4.AddEditCarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавить автомобиль" Height="348" Width="317">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="257">
+        <Label Content="VIN номер"/>
+        <TextBox x:Name="txtVin" Width="200" Margin="0,0,0,10"/>
+
+        <Label Content="Модель"/>
+        <TextBox x:Name="txtName" Width="200" Margin="0,0,0,10"/>
+
+        <Label Content="Тип"/>
+        <TextBox x:Name="txtType" Width="200" Margin="0,0,0,20"/>
+
+        <Button Content="Сохранить" Width="100" Click="Save_Click"/>
+        <Button Content="Назад" Width="80" Margin="0,20,0,20" Click="Back_Click"/>
+    </StackPanel>
+</Window>
